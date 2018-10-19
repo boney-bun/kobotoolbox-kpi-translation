@@ -2048,16 +2048,20 @@ msgstr "Lo mejor,"
 msgid "Activate your KoBoToolbox Account"
 msgstr "Activar tu cuenta de KoboToolbox"
 
-#: kpi/templates/registration/login.html:12
+#: kpi/templates/registration/login.html:15
 msgid "Forgot?"
 msgstr "¿Olvido su contraseña?"
 
-#: kpi/templates/registration/login.html:20
+#: kpi/templates/registration/login.html:18
+msgid "Login"
+msgstr "Conectar"
+
+#: kpi/templates/registration/login.html:23
 #: kpi/templates/registration/registration_form.html:46
 msgid "or"
 msgstr "o"
 
-#: kpi/templates/registration/login.html:20
+#: kpi/templates/registration/login.html:23
 msgid "create an account"
 msgstr "Crear una cuenta"
 
@@ -2094,8 +2098,8 @@ msgid "Account created!"
 msgstr "La cuenta ha sido creada"
 
 #: kpi/templates/registration/registration_complete.html:11
-msgid "Thanks for creating a KoBoToolbox account."
-msgstr "Gracias por crear una cuenta en KoBoToolbox"
+msgid "Thanks for creating a ScanCollect account."
+msgstr "Gracias por crear una cuenta en ScanCollect"
 
 #: kpi/templates/registration/registration_complete.html:14
 msgid "Please click the activation link in the email just sent to you."
@@ -2113,10 +2117,10 @@ msgstr "Crear cuenta"
 msgid "login"
 msgstr "conectar"
 
-#: kpi/views.py:421
+#: kpi/views.py:431
 msgid "No key provided"
 msgstr "No se especificó una clave "
 
-#: kpi/views.py:438
+#: kpi/views.py:448
 msgid "Invalid or expired key"
 msgstr "Clave expirada o invalida"
